@@ -1,0 +1,32 @@
+.edu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+    }
+.edu-cards {
+    width: 250px;
+    height: 140px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 1px solid hidden;
+    background-color:transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    color: rgb(5, 13, 20);
+}
+.edu-title{
+    font-size: 1.2rem;
+    color: rgb(246, 247, 238);
+}
+@media only screen and (max-width: 960px) {
+    .edu-cards{
+      display: flex;
+      flex-direction: column;
+      margin:auto;
+      width: 100%;
+      height:auto;
+  }   
+  
+}
